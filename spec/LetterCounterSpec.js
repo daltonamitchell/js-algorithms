@@ -1,3 +1,9 @@
+/**
+ * Write a function, `letterCount(str)` that takes a string and
+ * returns a hash mapping each letter to its frequency. Do not include
+ * spaces.
+ */
+
 import letterCount from '../lib/letter-count';
 
 describe('letterCount', () => {

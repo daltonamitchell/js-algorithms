@@ -12,7 +12,7 @@ Follow these steps to get started:
 
 1. Clone this repo
 2. Run `npm install` to install the dependencies. You'll need Node/NPM of course. They can both be found [here](https://nodejs.org/en/).
-3. Run `npm run test` to run the tests.
+3. Run `npm run gulp` to lint code and run the tests. Alternatively, `npm run lint` or `npm run test` will run each of these tasks separately.
 4. All tests are in the `spec` directory and solutions are located in `lib`.
 5. Once you understand whats going on, remove the solution code and try to get it working again on your own.
 6. Go forth and conquer!

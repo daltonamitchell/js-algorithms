@@ -40,8 +40,8 @@ describe('fizzBuzz', () => {
     });
 
     it('outputs "FizzBuzz" as the 15th item', () => {
-      const expected = 'Buzz';
-      const actual = fizzBuzz()[4];
+      const expected = 'FizzBuzz';
+      const actual = fizzBuzz()[14];
       expect(expected).toEqual(actual);
     });
 

@@ -49,4 +49,9 @@ describe('longestPalindrome', () => {
     expect(longestPalindrome(reallyLongString)).toEqual(expected);
     /* jshint ignore:end */
   });
+
+  it('finds a palindrome only one char less than the string', () => {
+    expect(longestPalindrome('amom')).toEqual('mom');
+    expect(longestPalindrome('aibohphobiaz')).toEqual('aibohphobia');
+  });
 });

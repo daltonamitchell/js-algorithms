@@ -18,10 +18,6 @@ import fizzBuzz from '../lib/fizz-buzz';
 import nthIndex from './support/nth-index';
 
 describe('fizzBuzz', () => {
-  it('returns an array', () => {
-    expect(Array.isArray(fizzBuzz())).toEqual(true);
-  });
-
   describe('when no parameters are given', () => {
     it('outputs 100 items', () => {
       expect(fizzBuzz().length).toEqual(100);
